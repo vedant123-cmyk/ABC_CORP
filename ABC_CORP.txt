@@ -1,0 +1,12 @@
+use devdb; CREATE TABLE devemployees( ... by Nigam, Sajal
+Nigam, Sajal12:34 PM
+use devdb;
+CREATE TABLE devemployees(
+    Employee_id INT,
+    name VARCHAR (25),Designation VARCHAR(25));
+Insert into devemployees(Employee_id,name,Designation) Values(46040068,'Sajal Nigam','Analyst');
+select * from devemployees;
+Insert into devemployees(Employee_id,name,Designation) Values(46040045,'Vedant Vishwakarma','Analyst');
+Insert into devemployees(Employee_id,name,Designation) Values(46040045,'Rhythm Sharma','Analyst');
+Insert into devemployees(Employee_id,name,Designation) Values(46040045,'Azam Khan','Analyst');
+Insert into devemployees(Employee_id,name,Designation) Values(46040068,'Utkarsh Singh','Analyst');
